@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rv_background">#FFFFFF</color>
+    <color name="rv_surface">#F3F7FC</color>
+    <color name="rv_text">#071D3B</color>
+    <color name="rv_secondary">#667085</color>
+    <color name="rv_primary">#246BFD</color>
+    <color name="rv_accent">#11C9C0</color>
+    <color name="rv_border">#E4ECF5</color>
+    <color name="rv_success_text">#087F72</color>
+    <color name="rv_warning_text">#9B5A00</color>
+    <color name="rv_error_text">#C73149</color>
+</resources>
