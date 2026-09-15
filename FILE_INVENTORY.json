@@ -1,0 +1,1505 @@
+{
+  "file_count": 300,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 119,
+      "sha256": "bce516f746bd0b8800ab486f135ee6049b25d9913f38a9063cc4f265afc29abe"
+    },
+    {
+      "path": ".github/workflows/build-apk.yml",
+      "bytes": 2533,
+      "sha256": "5f11b419a0426d2bb9e69dea9479a1d838ab50d16d1d147fe25604bd91a849e0"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 123,
+      "sha256": "4bab6da39cce271a379ac1e862760aeb36bb670926373f1fddc8ecfe27907be1"
+    },
+    {
+      "path": "BUILD_CRITICAL_SHA256.json",
+      "bytes": 1031,
+      "sha256": "1899179f9099dfa5afd8dd4503633fc153383e5ef29bfaf3e776713749d5498a"
+    },
+    {
+      "path": "GITHUB_ACTIONS_INSTRUCTION_RU.md",
+      "bytes": 1452,
+      "sha256": "5ddb24ea9bf6e384a28d41b058b2bf2e7f5ca2f7dff0b5e182d775f5fd630130"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "bytes": 518,
+      "sha256": "903cad8d56074e633e067c0a59045bf84f19ad84fc412ba9ff86aec993172e79"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2883,
+      "sha256": "5d1dbc302e845d048fe396bad511b8ddf84ae45a0805ad106f8bea309f04db67"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "bytes": 985,
+      "sha256": "6c3d47bbcf7d49ad7ae4cdaa1c63d79ac88f44727203252996664ed98bb5a51b"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "bytes": 733,
+      "sha256": "66321cb6c9b736662fc106a0b27de86209e7dedaa7795e823a15a691b15982ac"
+    },
+    {
+      "path": "app/src/main/java/kz/rivet/app/MainActivity.kt",
+      "bytes": 539,
+      "sha256": "ebf4ee555f5bb78810db97fcfb22d6c9693980d6cf3985c0333f0d0ce55fc677"
+    },
+    {
+      "path": "app/src/main/java/kz/rivet/app/catalog/DeveloperCatalogScreen.kt",
+      "bytes": 3339,
+      "sha256": "ad5f7722446abb65d7c7c4282f0b7e676eef2959f954362ca3bda9e479b07cd4"
+    },
+    {
+      "path": "app/src/main/java/kz/rivet/app/designsystem/components/Buttons.kt",
+      "bytes": 1165,
+      "sha256": "917d581d8dbc21250ab6dc50319b6fdbe4b3ad7408c2d4cadccad0b9ef22d151"
+    },
+    {
+      "path": "app/src/main/java/kz/rivet/app/designsystem/components/Fields.kt",
+      "bytes": 1033,
+      "sha256": "ebd0011c8bbb51b493dfdc993f4e66aedc674ed9da1287fa4399bac66bf424da"
+    },
+    {
+      "path": "app/src/main/java/kz/rivet/app/designsystem/components/RivetCard.kt",
+      "bytes": 1052,
+      "sha256": "aee5ada658c27b773aae2af20225fa3b6cd35d2c46acbea505d6f8e8eda13657"
+    },
+    {
+      "path": "app/src/main/java/kz/rivet/app/designsystem/components/StatusChip.kt",
+      "bytes": 1286,
+      "sha256": "a04383a20f21c9eec3245d9d8898abd0f857db32974ae93798149bb502223666"
+    },
+    {
+      "path": "app/src/main/java/kz/rivet/app/designsystem/theme/Color.kt",
+      "bytes": 477,
+      "sha256": "0975265a4b1221987e5a2446f2203377e11b5fa3ba91620285208d6ec5d0b33b"
+    },
+    {
+      "path": "app/src/main/java/kz/rivet/app/designsystem/theme/Dimensions.kt",
+      "bytes": 515,
+      "sha256": "b3e34175ab0042ee193f84d0b917082d4ca6d86a683322d2c002a8a7bfff836c"
+    },
+    {
+      "path": "app/src/main/java/kz/rivet/app/designsystem/theme/Responsive.kt",
+      "bytes": 705,
+      "sha256": "ae36ab769295a3e649d3c5b3964cf2f8a55af6e5f98afe40314be7ae926d4fd5"
+    },
+    {
+      "path": "app/src/main/java/kz/rivet/app/designsystem/theme/Theme.kt",
+      "bytes": 985,
+      "sha256": "852a0f034ca86bb2f80f02e745bdcf963ba26bce55001aa83996bd6b2ad489e9"
+    },
+    {
+      "path": "app/src/main/java/kz/rivet/app/designsystem/theme/Type.kt",
+      "bytes": 1401,
+      "sha256": "ba7b39d9c361b9619a28d543b3723d93a758535fb04839b90632f3015265ff1c"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_field.xml",
+      "bytes": 222,
+      "sha256": "d034165be8227140960449cc3fefa1f8c6f355fe00895eb11c89337d8b75ffe0"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_primary_gradient.xml",
+      "bytes": 222,
+      "sha256": "c37a8fef947c7380880653d49935a79961e9ed60047d5b624131bc46bbff67f7"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_status_error.xml",
+      "bytes": 167,
+      "sha256": "41e16fad448be83966b68eff02c0605ab512e55996a42e57c805498de82ec07a"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_status_success.xml",
+      "bytes": 167,
+      "sha256": "71d7c4dd6dc9cda829f1cc5808d3a08e8b5f84e9626bd208057d8dbd084b478a"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_status_warning.xml",
+      "bytes": 167,
+      "sha256": "4836cb81d3c6e5136ff24cccc3592b6821dcef2212e37de3d6839f5292b5a28c"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_surface_card.xml",
+      "bytes": 222,
+      "sha256": "a6f4bd2c6351f33c0ef9467214d2dccc12adfaabc8fe35132087859aa6de37e4"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_add.xml",
+      "bytes": 592,
+      "sha256": "54bbba1e504448ba6fe8c0eb6a3005736db17292bdda9390bce1eee6fb80b7ef"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_attach.xml",
+      "bytes": 514,
+      "sha256": "8040f2d0d24fcff5d45c0e8c1f26fda0b09275c56dc78cc2b3c08cac1329afef"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_back.xml",
+      "bytes": 598,
+      "sha256": "1414edff15744db95d833cf1b7cbd769bda35517ffa7591008d37322b955a468"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_bookmark.xml",
+      "bytes": 404,
+      "sha256": "709ce7196b83c6729712a7a1fb805b35e00e9884bf938554c0b1be44ecb5266e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_calendar.xml",
+      "bytes": 1646,
+      "sha256": "e59581dacd8edeec4017d20a516cf5c0c3e60579649389e4e2459f294c14891f"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_camera.xml",
+      "bytes": 712,
+      "sha256": "d77899e8879d975e36a5d59f79b6d6190d9bb393b8686e6f7ee1dd157b705c29"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_check_circle.xml",
+      "bytes": 682,
+      "sha256": "210af3644e6098f4825d31e23e16117da0fce3c2d596c90ba86c2e2e299152b6"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_checklist.xml",
+      "bytes": 1440,
+      "sha256": "75d7fe0c194a051e9110a29cf061b6accde40712af6e9991a476cdd0e0e63d6b"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_chevron_down.xml",
+      "bytes": 389,
+      "sha256": "bfea0460b5d0adab866ac5fb22f0a13031c803cd7cbe08c9b47f7e745ab13a03"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_chevron_right.xml",
+      "bytes": 389,
+      "sha256": "b9eca403d0b1fc29345920ba56179455746a5e2f72f9a59688c447c145cff0e8"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_clock.xml",
+      "bytes": 675,
+      "sha256": "7edaf9bd5087725040798ee890838801a66694a9f717d29cef245b894210b24a"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_close.xml",
+      "bytes": 590,
+      "sha256": "85d2845cffadc1deef21d55627cef4a97b9ef88d4ca2f9c9c40f1a95dfbbd403"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_document.xml",
+      "bytes": 1032,
+      "sha256": "3be4720f987348776dfed0e5b288c4df189b66a73c1d616c247756c536a72fbe"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_download.xml",
+      "bytes": 807,
+      "sha256": "bdc647ace8fee280599534b090451c7736f41b77e6180eac4ce17e92e9ea8bbc"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_edit.xml",
+      "bytes": 618,
+      "sha256": "0918c869cd89312881150ad9a86ac9eded0da467b437cef815b03e92bf94118d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_email.xml",
+      "bytes": 610,
+      "sha256": "6ff7fe98fd097093d1330436e0c2c1c2d59c792f8ad72ec48ca4b6d56b4c9cfd"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_equipment.xml",
+      "bytes": 1082,
+      "sha256": "774e0e0744b80f8f2cb689fc7feaf653bf740066f62735649395b48309f952e9"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_error.xml",
+      "bytes": 874,
+      "sha256": "fa6e882092cd1dd7fcd2bdd91c7f5dfe7d3a6b199fb51ee1d313a85259f82ba9"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_filter.xml",
+      "bytes": 412,
+      "sha256": "6406954a732275901c4c1fba933f7f3496ea4903368d56d2699486fa0ad9c25c"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_flash.xml",
+      "bytes": 413,
+      "sha256": "76ce4c66b07059ba5a342e66b99f30d2b291e53dea6027f873f34d4e41b24a5c"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_help.xml",
+      "bytes": 948,
+      "sha256": "46886a509692611d49c6771d1363e33374a8e6195c66b37d7f4f391c47e6f283"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_history.xml",
+      "bytes": 892,
+      "sha256": "eb1cd1938d23d32e7516a7d8d0f24b7376150bdd02d81d701221445f4d66f076"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_home.xml",
+      "bytes": 639,
+      "sha256": "28e7531e6d8a69f446b88628353024693feb8ff94569eedf8a9ff8586eac2c2b"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_info.xml",
+      "bytes": 878,
+      "sha256": "2a3e4d4836d619ea84e41dc67c8c853552538b2e2cf4c84020a250e50d4649ab"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_keyboard.xml",
+      "bytes": 2470,
+      "sha256": "bb3e1593298d0b9dda96ef0898874a8dfdea51484bd4c5a3a267c28fb29f8c63"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_language.xml",
+      "bytes": 1232,
+      "sha256": "200729312353be4ab33f10a8d243892b43812947709ebe1a9c2f1df52764a9e6"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "bytes": 254,
+      "sha256": "0baf039983d95655652204eeff5346c41b998a2e5e87041047d79c004d697668"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_monochrome.xml",
+      "bytes": 254,
+      "sha256": "06a63af75c2cea98ffa871be96f9dde349f669a6b86a0914fb763dc22d7699ed"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_location.xml",
+      "bytes": 764,
+      "sha256": "fe95ea28f3813b155992592caf2e04a217734e1582d6b102ff088dcd82223b3d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_lock.xml",
+      "bytes": 650,
+      "sha256": "5ec0c648e53560ad6b505281731008e8f91b4f0daa68799f0008bf8c78bb0233"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_logout.xml",
+      "bytes": 818,
+      "sha256": "0d2c8e33e919634505f6a19b34e3c3f60841c74de807f19ecf424d1554af32b4"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_message.xml",
+      "bytes": 817,
+      "sha256": "ba1c9c416f252fc7e142c1233b7f8e26d105067fdea0ecd03c33980417a3093c"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_notifications.xml",
+      "bytes": 1092,
+      "sha256": "61c2365a480956eea4504809d0743ec0b55f19c5f05268f0733c91c8bea80598"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_overflow.xml",
+      "bytes": 807,
+      "sha256": "abae89835a148628e2ec9ef18bc400888f9952d672281c6652707e40987bd5f5"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_pdf.xml",
+      "bytes": 1507,
+      "sha256": "9fe397b4c17012cdf95b3461620620c4c8b17bbf1278b0c1539107c71dd9d45e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_phone.xml",
+      "bytes": 486,
+      "sha256": "81e5e1f23b407d1d7c306c83be5806d456e994cf7fc9570be873e2248695f52e"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_profile.xml",
+      "bytes": 703,
+      "sha256": "8fb43e7b345ac11a57311064df7280cb9fb24ad88bfd9e551db93bf92c742443"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_qr_code.xml",
+      "bytes": 1716,
+      "sha256": "cf3e597fec84e47dea7644c46afdb10a98998089ceb76d09f49f3412c92f5b94"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_refresh.xml",
+      "bytes": 1110,
+      "sha256": "9e76037abba6f4c06177b955645bcf8c07b7d3297f17d78a46c18ef587b8b54d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_request.xml",
+      "bytes": 597,
+      "sha256": "aa47c91fca572ea78113a274eec2806534600d99108ffa927344da0fc83e7945"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_search.xml",
+      "bytes": 682,
+      "sha256": "e768ee195ea286e48f27b0c62615d9dc2a606513c33dc64cd276b26006efb1ea"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_send.xml",
+      "bytes": 410,
+      "sha256": "f98e9a448f6a15432552f8fb7fe42d83af1b48c6920a186a779da8c579fe5100"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_settings.xml",
+      "bytes": 940,
+      "sha256": "005a77d8113a0060f78b48fc5e790a5b99463495dce582c8c94af103718d7fb9"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_task.xml",
+      "bytes": 825,
+      "sha256": "53605e91c868ab2b31fd6f2cf8a40af11b7dddb8273bd33d7936424ddd363e00"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_theme.xml",
+      "bytes": 509,
+      "sha256": "4d37b3d38317b4640797b673b47252ebee89129261041d2de1394335ae81f3ce"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_upload.xml",
+      "bytes": 804,
+      "sha256": "0f9369c298b0da2a146aee687d6dc766cb21f142aaab7eee053978cb80713247"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_visibility.xml",
+      "bytes": 738,
+      "sha256": "9eae370a046ab01f3ed2b56dbc41ddff1b9a840efedbcb35c9e8c1a55eab5661"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_warning.xml",
+      "bytes": 811,
+      "sha256": "141d861f854cf9eaf7d7a55b5345cb7bf4b0d5de4849bf47f573e79a2f7a860f"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_wifi_off.xml",
+      "bytes": 1286,
+      "sha256": "96128d0fc4f5e8c8cb8ff6bd8a05a714c203badf942d6b2228bdd59a9e8915d5"
+    },
+    {
+      "path": "app/src/main/res/drawable/il_empty_documents.xml",
+      "bytes": 1032,
+      "sha256": "7b9515d1ee9246008ee58ea4589d7230a4e8b35579bee50a9b8c35607c6a4f95"
+    },
+    {
+      "path": "app/src/main/res/drawable/il_empty_messages.xml",
+      "bytes": 817,
+      "sha256": "79b80e1d001747f82b4835197a5220ce6dbdba7e9307bbb73d5042d6a6f47fb0"
+    },
+    {
+      "path": "app/src/main/res/drawable/il_offline.xml",
+      "bytes": 1286,
+      "sha256": "016f1ff03da3c931bb5685be82baea06461d714558cd8a9f783caf23f616c215"
+    },
+    {
+      "path": "app/src/main/res/drawable/il_success.xml",
+      "bytes": 679,
+      "sha256": "97ef3f21e927cb5491bdae3f93f18bf750799931c89e2653866522fcad044bb1"
+    },
+    {
+      "path": "app/src/main/res/drawable/qr_scan_frame.xml",
+      "bytes": 1120,
+      "sha256": "0dbc590ce6b10ec759386a5076036fa0708a2b83040d85eb340199da4ef19a95"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/chat_motor_demo.png",
+      "bytes": 196142,
+      "sha256": "ea93929e4c1435048364c3928670e31d00a3292bf8335a1f9769336c22039112"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/equipment_urola_m6_coex_demo.png",
+      "bytes": 260185,
+      "sha256": "a8a7de276d4332f78fe2145252497f1bba7060e7f2f46b6671349c5f985a7a1a"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/ic_launcher_foreground_bitmap.png",
+      "bytes": 42715,
+      "sha256": "c59346108648e6e3f68d522f5988cd2dd597b409cfbcb12c654665a3c2ca2c26"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/ic_launcher_monochrome_bitmap.png",
+      "bytes": 33002,
+      "sha256": "cb4d15a0fff434c80fbaf92d0b60319eed8b7565f89305efcd5644aa1a3a6162"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/rivet_logo_full.png",
+      "bytes": 520121,
+      "sha256": "0a2645ea7785ea63a1e73e87901698b98108df347c3ca0b1e9f1ac71e12b7c09"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/rivet_mark.png",
+      "bytes": 362265,
+      "sha256": "683477a80936fe56cab215fde41ba8d01b41ccc0d3af7ada008aab004c1751e3"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 329,
+      "sha256": "7022c2f64e24ad1518e9bd062fe181dd4cef49a77b2da3cf42ea7b77850a1604"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 329,
+      "sha256": "7022c2f64e24ad1518e9bd062fe181dd4cef49a77b2da3cf42ea7b77850a1604"
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "bytes": 2768,
+      "sha256": "86a99ee6902f31f4d7bd555a4c86cac4c04c84e808adc9b6ff89d9a39e621547"
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+      "bytes": 2768,
+      "sha256": "86a99ee6902f31f4d7bd555a4c86cac4c04c84e808adc9b6ff89d9a39e621547"
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "bytes": 1703,
+      "sha256": "15cfdfdc39e0285f8c52681fb29fb23f65dee2a6781c16b94860b83a4649ac46"
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+      "bytes": 1703,
+      "sha256": "15cfdfdc39e0285f8c52681fb29fb23f65dee2a6781c16b94860b83a4649ac46"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "bytes": 3926,
+      "sha256": "9b5dcb8bca9bb86d037160c928f4d834e983f55811e22b1089155f7cc7137d93"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+      "bytes": 3926,
+      "sha256": "9b5dcb8bca9bb86d037160c928f4d834e983f55811e22b1089155f7cc7137d93"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "bytes": 6193,
+      "sha256": "a760f22db58ef9c2acaaeb10154cfa146da3e39ef46603fd3f307146719ece02"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+      "bytes": 6193,
+      "sha256": "a760f22db58ef9c2acaaeb10154cfa146da3e39ef46603fd3f307146719ece02"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "bytes": 9154,
+      "sha256": "1f4d2a29c18e9f630592a9a0daafed3dbd6d550dce06bcfa4d6ef96e77e26af9"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+      "bytes": 9154,
+      "sha256": "1f4d2a29c18e9f630592a9a0daafed3dbd6d550dce06bcfa4d6ef96e77e26af9"
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "bytes": 527,
+      "sha256": "dc2aac7f668e0cab71063ba9c58d5402c09f23fc896ea362de3384928f2b24e8"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "bytes": 107,
+      "sha256": "36682f8d78c5c06ab4e40a43eccc789d066e49fa6c9539dff97f5a98c405b286"
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "bytes": 437,
+      "sha256": "a72c6d2cc59b7e89630b789541faa6878fcf36c59f5a52297720ed97f57f7d1c"
+    },
+    {
+      "path": "build.gradle.kts",
+      "bytes": 401,
+      "sha256": "cac82601e3d24a35e2079f011f60dd2f3957b746410fbe6a4f5620fbefa36359"
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "bytes": 803,
+      "sha256": "7cb52ca55a512f33c0f6efeb3856068cfa47ec37241654ebf76cb7c675b0fa6c"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 252,
+      "sha256": "10af740d6d50f4c4294ae3e3c2e593dbf9b5a03bf25ed0a955155ade7a1bc387"
+    },
+    {
+      "path": "gradle.properties",
+      "bytes": 202,
+      "sha256": "b0a79d51bfbc40d091c33691d1432f5b6f6975c4eecae1ae0c7583d3eff78e89"
+    },
+    {
+      "path": "handoff/00_START_HERE.md",
+      "bytes": 3010,
+      "sha256": "92a252863ce868dff1c2af1b41fd7cb7d90f214e3b149dabe74f604fe659a3af"
+    },
+    {
+      "path": "handoff/01_REFERENCE/boards/00_source_screens_contact_sheet.png",
+      "bytes": 1226254,
+      "sha256": "97bf24d476a493762cb76752b9014efd5c7fa64912d905f9840b884b4cf0a9d5"
+    },
+    {
+      "path": "handoff/01_REFERENCE/boards/01_all_screens_board.png",
+      "bytes": 1519333,
+      "sha256": "9c1b7c8579e074502391fb2fbf9e053cb5008d0edc888287cb1809aaa8c6a8b2"
+    },
+    {
+      "path": "handoff/01_REFERENCE/boards/02_ui_components_board.png",
+      "bytes": 1466685,
+      "sha256": "68ac654a4e559018a797974c8a7c82f0a62f89617adeb3d070279002e83b3e58"
+    },
+    {
+      "path": "handoff/01_REFERENCE/boards/03_objects_and_assets_board.png",
+      "bytes": 1565496,
+      "sha256": "d3d52771bef22f3d4f569282abda5b0cbe9d6b66f628ae564d73995adfc9c87a"
+    },
+    {
+      "path": "handoff/01_REFERENCE/boards/04_android_adaptation_board.png",
+      "bytes": 1691650,
+      "sha256": "2346a0dc4ed6c72c45ce9230c8290665274d32fc013a55df13720f116f18e778"
+    },
+    {
+      "path": "handoff/01_REFERENCE/brand/RIVET_logo_transparent.png",
+      "bytes": 520121,
+      "sha256": "0a2645ea7785ea63a1e73e87901698b98108df347c3ca0b1e9f1ac71e12b7c09"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/00_splash.png",
+      "bytes": 663323,
+      "sha256": "98d16e76d05ecdb60444d86fe43bb7675a89f33c436041b96359062d585ccfef"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/01_home.png",
+      "bytes": 1139213,
+      "sha256": "34e0b9f4ee789cd03c1f71f35350314cacad9fc1ff5cfa024f0ed052e56551e1"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/02_welcome.png",
+      "bytes": 919322,
+      "sha256": "dd005f0390f0eb4a6b495e3464492c97a05bc8ca1ea52208d66890bbfe23ae44"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/03_register.png",
+      "bytes": 928010,
+      "sha256": "ed6d8aa62d16a212906b12f70840c89e718c2c8245251812da25270ad9559602"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/04_password_reset.png",
+      "bytes": 930547,
+      "sha256": "05cacaa5a8d871741c9eb335a5ea2cbc788283e5d630d306754c2f1aa861bb83"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/05_equipment.png",
+      "bytes": 1030877,
+      "sha256": "4de55e4fc4b5c4505c024d2907ded34101b44e30584cc6329ec27c7ad88c841d"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/06_equipment_detail.png",
+      "bytes": 1106540,
+      "sha256": "4ea2381e7e7f60adc8a54e8cbd769e1052742466e85825dac29f6070b61b66b0"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/07_history.png",
+      "bytes": 1035574,
+      "sha256": "747ef7f470ac5c201e18fd15b9a1369027c4f4226a0f72acadd8813f8a2e2783"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/08_manuals.png",
+      "bytes": 1199207,
+      "sha256": "76f888481289df036a6d735407f817e48378820c94501f29d8cf6e2d9550d1d7"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/09_pdf_viewer.png",
+      "bytes": 1090249,
+      "sha256": "94f613bdd2a1fc7d2ec4462320f72b6b221cfdde8abfa692289c9bfc9d9bf346"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/10_checklists.png",
+      "bytes": 990298,
+      "sha256": "aa0aa377040040b653614228694abf9cf0e9fd55f45fd21cf35756b7874609d5"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/11_checklist_run.png",
+      "bytes": 973731,
+      "sha256": "fa806cfd47e4973adebd333f2f660e20d6a2042584ade7b7cb306ece433d7f34"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/12_checklist_done.png",
+      "bytes": 978904,
+      "sha256": "64959c5cb003e7c8694cb3da99c6c43bb5f9b925d0f92a4829c27d0609456c82"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/13_shift.png",
+      "bytes": 1305263,
+      "sha256": "3094a2e061ff2f0603a6f4a1ac34f5203734a0589d1105f92f8e91455811247c"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/14_requests.png",
+      "bytes": 1004628,
+      "sha256": "65dbc8f70aac8b60a9755d112aed76908ccb530023f336f2cb30b3b2e57be824"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/15_request_new.png",
+      "bytes": 1094365,
+      "sha256": "8512082f8321edf1e6715bdcbb7e5e1121c9dcd4b3c656141b5ca1702564746c"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/16_request_detail.png",
+      "bytes": 1081064,
+      "sha256": "c710dec7d4e9df170b30c420a6008d1160dadfd17838c54b85ca6bf918c0a48b"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/17_tasks.png",
+      "bytes": 1020393,
+      "sha256": "a014b3f9099c99a7f13eb7ae38ada1f7a626063dded06a28710d55e2e9735edd"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/18_task_detail.png",
+      "bytes": 1046202,
+      "sha256": "6960c55fac2ec871dcff594a723bde9a8c2cbbc66a57bd57f0a63ed0b4d18819"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/19_messages.png",
+      "bytes": 933461,
+      "sha256": "32bbacce18fb5663066faa7e154ece1c3ca20629cccc29756aeca86f3c44c865"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/20_chat.png",
+      "bytes": 1120479,
+      "sha256": "76c5822c539418afc129791bb9eb074d12ae134470bf871525fff3bbc43dd4f1"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/21_profile.png",
+      "bytes": 971250,
+      "sha256": "e9d0c5213380de022e31bed0a80f746050efa480dc426326881d5addbfe9caa7"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/22_settings.png",
+      "bytes": 1288956,
+      "sha256": "8fa4ae5beb87066c904379c53380f1f634a7500dd5b809c83108bde2413c689a"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/23_help.png",
+      "bytes": 1052609,
+      "sha256": "a50b9913089f9e514ff7fb1415c233696b214b3a86a1b676b8a9a4c85de72c30"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/24_help_article.png",
+      "bytes": 1021689,
+      "sha256": "2612e5a6fcef600315bd325c164cf144571862651153497389c6162825d3c341"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/25_qr_scanner.png",
+      "bytes": 1116696,
+      "sha256": "5b14aa60ee0fa61951a41a802fc2768b37dfd6bd2abe0ff2215d8416808d0845"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/26_notifications.png",
+      "bytes": 1035453,
+      "sha256": "1880239f316949acd53cb47d0361eeaf1d07852490a24623d057789f016bd3a1"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/27_edit_profile.png",
+      "bytes": 927373,
+      "sha256": "29a454d3f441441a0c5529b8c298e027fd7324ee64828add196f7411b6952e95"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/28_handover.png",
+      "bytes": 1254923,
+      "sha256": "f9daa2ea701c6213946caa93dc6feb1cc5d33f04cf68b94c4ac6529589b3de03"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/29_offline.png",
+      "bytes": 1008686,
+      "sha256": "5f8e9f184423d494c505507f0f32857510a159e0927f7bc1351a22eae49ad894"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/30_upload_pdf.png",
+      "bytes": 975039,
+      "sha256": "ad5a521a5c96f7af41df3a6d51d4b4bf54f368906e5d035d1786dde6f00feb0e"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/31_manager.png",
+      "bytes": 1077841,
+      "sha256": "cd88030f4f4f6fd2e6bdc1388d6fd9d64fb7fc828b81fabc83802fd6e3dd12b9"
+    },
+    {
+      "path": "handoff/01_REFERENCE/screens/32_about.png",
+      "bytes": 1085723,
+      "sha256": "edfe2d267e381858baf9504d878b9f1a1d60bdf8d03df8008d7189d59b8f9a80"
+    },
+    {
+      "path": "handoff/02_DESIGN_SYSTEM/accessibility/ACCESSIBILITY_SPEC.md",
+      "bytes": 605,
+      "sha256": "ec4214138e28cef9578ceb798a059829ba64fb538711efd3d31a3669c39b6d09"
+    },
+    {
+      "path": "handoff/02_DESIGN_SYSTEM/components/COMPONENT_CONTRACTS.json",
+      "bytes": 1715,
+      "sha256": "646bc593bd0e5d73eac8810ff8de3a611d3e7d98b68af8d8b8d6a9d8792a625b"
+    },
+    {
+      "path": "handoff/02_DESIGN_SYSTEM/motion/MOTION_SPEC.md",
+      "bytes": 819,
+      "sha256": "e2f373184196f6f1a1af67cb279f0e9179121c3e7b718cc96ca1b6f4f7f5ab3f"
+    },
+    {
+      "path": "handoff/02_DESIGN_SYSTEM/responsive/ADAPTIVE_LAYOUT_SPEC.md",
+      "bytes": 1181,
+      "sha256": "870afac9bfb68ea85f8d0a0720ec7b0178333b95419f32202b42f8b35319cee2"
+    },
+    {
+      "path": "handoff/02_DESIGN_SYSTEM/tokens/design_tokens.android.json",
+      "bytes": 1800,
+      "sha256": "781e2b2976e54ef085b17e9a5ba4c9f18fbfc923d3f913d0f43ad08780f5f3b3"
+    },
+    {
+      "path": "handoff/02_DESIGN_SYSTEM/tokens/design_tokens.json",
+      "bytes": 897,
+      "sha256": "0c947c6d460390a1761f998b601cbc952775a4f1dcd03676126f7a2ac71e5e0c"
+    },
+    {
+      "path": "handoff/02_DESIGN_SYSTEM/typography/TYPE_SPEC.md",
+      "bytes": 1149,
+      "sha256": "c5fd8146608b363ec48b32430ec8b1d777e4219b8e832c1b51afa9ff79383ab6"
+    },
+    {
+      "path": "handoff/03_ASSETS/ASSET_REGISTRY.csv",
+      "bytes": 10601,
+      "sha256": "2e66902e2c03951213e63ba6d798b0ece0f485424f8c7019ab336baa01a6dc65"
+    },
+    {
+      "path": "handoff/03_ASSETS/ASSET_REGISTRY.json",
+      "bytes": 21178,
+      "sha256": "c214a24fe35935830f93afac54662029161c6978819bee2871127635c9859f30"
+    },
+    {
+      "path": "handoff/03_ASSETS/README_ASSETS.md",
+      "bytes": 644,
+      "sha256": "e19a28234a5b904c42c7df2d1f7900b9c9e2ec0885418f554f21125bcc9394b2"
+    },
+    {
+      "path": "handoff/03_ASSETS/brand/RIVET_logo_original_source.png",
+      "bytes": 520121,
+      "sha256": "0a2645ea7785ea63a1e73e87901698b98108df347c3ca0b1e9f1ac71e12b7c09"
+    },
+    {
+      "path": "handoff/03_ASSETS/brand/rivet_logo_full_1254.png",
+      "bytes": 520121,
+      "sha256": "0a2645ea7785ea63a1e73e87901698b98108df347c3ca0b1e9f1ac71e12b7c09"
+    },
+    {
+      "path": "handoff/03_ASSETS/brand/rivet_mark_1024.png",
+      "bytes": 362265,
+      "sha256": "683477a80936fe56cab215fde41ba8d01b41ccc0d3af7ada008aab004c1751e3"
+    },
+    {
+      "path": "handoff/03_ASSETS/demo_content/chat_motor_demo.png",
+      "bytes": 196142,
+      "sha256": "ea93929e4c1435048364c3928670e31d00a3292bf8335a1f9769336c22039112"
+    },
+    {
+      "path": "handoff/03_ASSETS/demo_content/equipment_urola_m6_coex_demo.png",
+      "bytes": 260185,
+      "sha256": "a8a7de276d4332f78fe2145252497f1bba7060e7f2f46b6671349c5f985a7a1a"
+    },
+    {
+      "path": "handoff/03_ASSETS/demo_content/equipment_urola_m6_coex_thumb_demo.webp",
+      "bytes": 12428,
+      "sha256": "de1b3f5e4975e16eab76a616c0519aa4d0a8329c17f5b57d3dfc47747efca3c9"
+    },
+    {
+      "path": "handoff/03_ASSETS/demo_content/qr_scanner_mock_reference.jpg",
+      "bytes": 53808,
+      "sha256": "97ba72028705287eeef7a0804d191f6558b2776aed03415e015e0691ef823a41"
+    },
+    {
+      "path": "handoff/03_ASSETS/gradients/bg_field.xml",
+      "bytes": 222,
+      "sha256": "d034165be8227140960449cc3fefa1f8c6f355fe00895eb11c89337d8b75ffe0"
+    },
+    {
+      "path": "handoff/03_ASSETS/gradients/bg_primary_gradient.xml",
+      "bytes": 222,
+      "sha256": "c37a8fef947c7380880653d49935a79961e9ed60047d5b624131bc46bbff67f7"
+    },
+    {
+      "path": "handoff/03_ASSETS/gradients/bg_status_error.xml",
+      "bytes": 167,
+      "sha256": "41e16fad448be83966b68eff02c0605ab512e55996a42e57c805498de82ec07a"
+    },
+    {
+      "path": "handoff/03_ASSETS/gradients/bg_status_success.xml",
+      "bytes": 167,
+      "sha256": "71d7c4dd6dc9cda829f1cc5808d3a08e8b5f84e9626bd208057d8dbd084b478a"
+    },
+    {
+      "path": "handoff/03_ASSETS/gradients/bg_status_warning.xml",
+      "bytes": 167,
+      "sha256": "4836cb81d3c6e5136ff24cccc3592b6821dcef2212e37de3d6839f5292b5a28c"
+    },
+    {
+      "path": "handoff/03_ASSETS/gradients/bg_surface_card.xml",
+      "bytes": 222,
+      "sha256": "a6f4bd2c6351f33c0ef9467214d2dccc12adfaabc8fe35132087859aa6de37e4"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_add.xml",
+      "bytes": 592,
+      "sha256": "54bbba1e504448ba6fe8c0eb6a3005736db17292bdda9390bce1eee6fb80b7ef"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_attach.xml",
+      "bytes": 514,
+      "sha256": "8040f2d0d24fcff5d45c0e8c1f26fda0b09275c56dc78cc2b3c08cac1329afef"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_back.xml",
+      "bytes": 598,
+      "sha256": "1414edff15744db95d833cf1b7cbd769bda35517ffa7591008d37322b955a468"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_bookmark.xml",
+      "bytes": 404,
+      "sha256": "709ce7196b83c6729712a7a1fb805b35e00e9884bf938554c0b1be44ecb5266e"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_calendar.xml",
+      "bytes": 1646,
+      "sha256": "e59581dacd8edeec4017d20a516cf5c0c3e60579649389e4e2459f294c14891f"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_camera.xml",
+      "bytes": 712,
+      "sha256": "d77899e8879d975e36a5d59f79b6d6190d9bb393b8686e6f7ee1dd157b705c29"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_check_circle.xml",
+      "bytes": 682,
+      "sha256": "210af3644e6098f4825d31e23e16117da0fce3c2d596c90ba86c2e2e299152b6"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_checklist.xml",
+      "bytes": 1440,
+      "sha256": "75d7fe0c194a051e9110a29cf061b6accde40712af6e9991a476cdd0e0e63d6b"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_chevron_down.xml",
+      "bytes": 389,
+      "sha256": "bfea0460b5d0adab866ac5fb22f0a13031c803cd7cbe08c9b47f7e745ab13a03"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_chevron_right.xml",
+      "bytes": 389,
+      "sha256": "b9eca403d0b1fc29345920ba56179455746a5e2f72f9a59688c447c145cff0e8"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_clock.xml",
+      "bytes": 675,
+      "sha256": "7edaf9bd5087725040798ee890838801a66694a9f717d29cef245b894210b24a"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_close.xml",
+      "bytes": 590,
+      "sha256": "85d2845cffadc1deef21d55627cef4a97b9ef88d4ca2f9c9c40f1a95dfbbd403"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_document.xml",
+      "bytes": 1032,
+      "sha256": "3be4720f987348776dfed0e5b288c4df189b66a73c1d616c247756c536a72fbe"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_download.xml",
+      "bytes": 807,
+      "sha256": "bdc647ace8fee280599534b090451c7736f41b77e6180eac4ce17e92e9ea8bbc"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_edit.xml",
+      "bytes": 618,
+      "sha256": "0918c869cd89312881150ad9a86ac9eded0da467b437cef815b03e92bf94118d"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_email.xml",
+      "bytes": 610,
+      "sha256": "6ff7fe98fd097093d1330436e0c2c1c2d59c792f8ad72ec48ca4b6d56b4c9cfd"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_equipment.xml",
+      "bytes": 1082,
+      "sha256": "774e0e0744b80f8f2cb689fc7feaf653bf740066f62735649395b48309f952e9"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_error.xml",
+      "bytes": 874,
+      "sha256": "fa6e882092cd1dd7fcd2bdd91c7f5dfe7d3a6b199fb51ee1d313a85259f82ba9"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_filter.xml",
+      "bytes": 412,
+      "sha256": "6406954a732275901c4c1fba933f7f3496ea4903368d56d2699486fa0ad9c25c"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_flash.xml",
+      "bytes": 413,
+      "sha256": "76ce4c66b07059ba5a342e66b99f30d2b291e53dea6027f873f34d4e41b24a5c"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_help.xml",
+      "bytes": 948,
+      "sha256": "46886a509692611d49c6771d1363e33374a8e6195c66b37d7f4f391c47e6f283"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_history.xml",
+      "bytes": 892,
+      "sha256": "eb1cd1938d23d32e7516a7d8d0f24b7376150bdd02d81d701221445f4d66f076"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_home.xml",
+      "bytes": 639,
+      "sha256": "28e7531e6d8a69f446b88628353024693feb8ff94569eedf8a9ff8586eac2c2b"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_info.xml",
+      "bytes": 878,
+      "sha256": "2a3e4d4836d619ea84e41dc67c8c853552538b2e2cf4c84020a250e50d4649ab"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_keyboard.xml",
+      "bytes": 2470,
+      "sha256": "bb3e1593298d0b9dda96ef0898874a8dfdea51484bd4c5a3a267c28fb29f8c63"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_language.xml",
+      "bytes": 1232,
+      "sha256": "200729312353be4ab33f10a8d243892b43812947709ebe1a9c2f1df52764a9e6"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_location.xml",
+      "bytes": 764,
+      "sha256": "fe95ea28f3813b155992592caf2e04a217734e1582d6b102ff088dcd82223b3d"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_lock.xml",
+      "bytes": 650,
+      "sha256": "5ec0c648e53560ad6b505281731008e8f91b4f0daa68799f0008bf8c78bb0233"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_logout.xml",
+      "bytes": 818,
+      "sha256": "0d2c8e33e919634505f6a19b34e3c3f60841c74de807f19ecf424d1554af32b4"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_message.xml",
+      "bytes": 817,
+      "sha256": "ba1c9c416f252fc7e142c1233b7f8e26d105067fdea0ecd03c33980417a3093c"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_notifications.xml",
+      "bytes": 1092,
+      "sha256": "61c2365a480956eea4504809d0743ec0b55f19c5f05268f0733c91c8bea80598"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_overflow.xml",
+      "bytes": 807,
+      "sha256": "abae89835a148628e2ec9ef18bc400888f9952d672281c6652707e40987bd5f5"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_pdf.xml",
+      "bytes": 1507,
+      "sha256": "9fe397b4c17012cdf95b3461620620c4c8b17bbf1278b0c1539107c71dd9d45e"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_phone.xml",
+      "bytes": 486,
+      "sha256": "81e5e1f23b407d1d7c306c83be5806d456e994cf7fc9570be873e2248695f52e"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_profile.xml",
+      "bytes": 703,
+      "sha256": "8fb43e7b345ac11a57311064df7280cb9fb24ad88bfd9e551db93bf92c742443"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_qr_code.xml",
+      "bytes": 1716,
+      "sha256": "cf3e597fec84e47dea7644c46afdb10a98998089ceb76d09f49f3412c92f5b94"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_refresh.xml",
+      "bytes": 1110,
+      "sha256": "9e76037abba6f4c06177b955645bcf8c07b7d3297f17d78a46c18ef587b8b54d"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_request.xml",
+      "bytes": 597,
+      "sha256": "aa47c91fca572ea78113a274eec2806534600d99108ffa927344da0fc83e7945"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_search.xml",
+      "bytes": 682,
+      "sha256": "e768ee195ea286e48f27b0c62615d9dc2a606513c33dc64cd276b26006efb1ea"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_send.xml",
+      "bytes": 410,
+      "sha256": "f98e9a448f6a15432552f8fb7fe42d83af1b48c6920a186a779da8c579fe5100"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_settings.xml",
+      "bytes": 940,
+      "sha256": "005a77d8113a0060f78b48fc5e790a5b99463495dce582c8c94af103718d7fb9"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_task.xml",
+      "bytes": 825,
+      "sha256": "53605e91c868ab2b31fd6f2cf8a40af11b7dddb8273bd33d7936424ddd363e00"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_theme.xml",
+      "bytes": 509,
+      "sha256": "4d37b3d38317b4640797b673b47252ebee89129261041d2de1394335ae81f3ce"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_upload.xml",
+      "bytes": 804,
+      "sha256": "0f9369c298b0da2a146aee687d6dc766cb21f142aaab7eee053978cb80713247"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_visibility.xml",
+      "bytes": 738,
+      "sha256": "9eae370a046ab01f3ed2b56dbc41ddff1b9a840efedbcb35c9e8c1a55eab5661"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_warning.xml",
+      "bytes": 811,
+      "sha256": "141d861f854cf9eaf7d7a55b5345cb7bf4b0d5de4849bf47f573e79a2f7a860f"
+    },
+    {
+      "path": "handoff/03_ASSETS/icons/android_vector/ic_wifi_off.xml",
+      "bytes": 1286,
+      "sha256": "96128d0fc4f5e8c8cb8ff6bd8a05a714c203badf942d6b2228bdd59a9e8915d5"
+    },
+    {
+      "path": "handoff/03_ASSETS/illustrations/android_vector/il_empty_documents.xml",
+      "bytes": 1032,
+      "sha256": "7b9515d1ee9246008ee58ea4589d7230a4e8b35579bee50a9b8c35607c6a4f95"
+    },
+    {
+      "path": "handoff/03_ASSETS/illustrations/android_vector/il_empty_messages.xml",
+      "bytes": 817,
+      "sha256": "79b80e1d001747f82b4835197a5220ce6dbdba7e9307bbb73d5042d6a6f47fb0"
+    },
+    {
+      "path": "handoff/03_ASSETS/illustrations/android_vector/il_offline.xml",
+      "bytes": 1286,
+      "sha256": "016f1ff03da3c931bb5685be82baea06461d714558cd8a9f783caf23f616c215"
+    },
+    {
+      "path": "handoff/03_ASSETS/illustrations/android_vector/il_success.xml",
+      "bytes": 679,
+      "sha256": "97ef3f21e927cb5491bdae3f93f18bf750799931c89e2653866522fcad044bb1"
+    },
+    {
+      "path": "handoff/03_ASSETS/illustrations/android_vector/qr_scan_frame.xml",
+      "bytes": 1120,
+      "sha256": "0dbc590ce6b10ec759386a5076036fa0708a2b83040d85eb340199da4ef19a95"
+    },
+    {
+      "path": "handoff/03_ASSETS/launcher/ic_launcher_foreground_432.png",
+      "bytes": 42715,
+      "sha256": "c59346108648e6e3f68d522f5988cd2dd597b409cfbcb12c654665a3c2ca2c26"
+    },
+    {
+      "path": "handoff/03_ASSETS/launcher/ic_launcher_hdpi_72.png",
+      "bytes": 2768,
+      "sha256": "86a99ee6902f31f4d7bd555a4c86cac4c04c84e808adc9b6ff89d9a39e621547"
+    },
+    {
+      "path": "handoff/03_ASSETS/launcher/ic_launcher_mdpi_48.png",
+      "bytes": 1703,
+      "sha256": "15cfdfdc39e0285f8c52681fb29fb23f65dee2a6781c16b94860b83a4649ac46"
+    },
+    {
+      "path": "handoff/03_ASSETS/launcher/ic_launcher_monochrome_432.png",
+      "bytes": 33002,
+      "sha256": "cb4d15a0fff434c80fbaf92d0b60319eed8b7565f89305efcd5644aa1a3a6162"
+    },
+    {
+      "path": "handoff/03_ASSETS/launcher/ic_launcher_play_512.png",
+      "bytes": 34403,
+      "sha256": "2058e700e10d7a79c63a6f539d1c35ebd1cdf1ebd5e609e7c2af2e4fd9c0f3ee"
+    },
+    {
+      "path": "handoff/03_ASSETS/launcher/ic_launcher_xhdpi_96.png",
+      "bytes": 3926,
+      "sha256": "9b5dcb8bca9bb86d037160c928f4d834e983f55811e22b1089155f7cc7137d93"
+    },
+    {
+      "path": "handoff/03_ASSETS/launcher/ic_launcher_xxhdpi_144.png",
+      "bytes": 6193,
+      "sha256": "a760f22db58ef9c2acaaeb10154cfa146da3e39ef46603fd3f307146719ece02"
+    },
+    {
+      "path": "handoff/03_ASSETS/launcher/ic_launcher_xxxhdpi_192.png",
+      "bytes": 9154,
+      "sha256": "1f4d2a29c18e9f630592a9a0daafed3dbd6d550dce06bcfa4d6ef96e77e26af9"
+    },
+    {
+      "path": "handoff/03_ASSETS/launcher/rivet_mark_monochrome_1024.png",
+      "bytes": 86191,
+      "sha256": "ed22729b9290dc824f55e5bdec875ca9b86f2d08f391cefd8b1887b071de70d9"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/IMPLEMENTATION_ORDER.md",
+      "bytes": 769,
+      "sha256": "7b29bd6d2586ccb71d627f82585e55809c07204d8b929a900a37915ad02928fc"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/SCREEN_CONTRACTS_ALL.json",
+      "bytes": 50230,
+      "sha256": "2b417edde7ca325a227c462474d5e18c36d0143d2cf9d619873ea33a93604330"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/SCREEN_INDEX.csv",
+      "bytes": 5086,
+      "sha256": "ae1ab905ae8dacdb02069904651b795d98bd4b2095797d8056f35f2d3a2fc94d"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/00_splash.json",
+      "bytes": 1308,
+      "sha256": "2eb8f13e174e0f5dc7ee6dbd9486754256653761227556b06db79515de38ca22"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/01_home.json",
+      "bytes": 1528,
+      "sha256": "2378535990dc7b222d2fadbc7ce9e47e562cd927319e0a213206aafb84eaa107"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/02_welcome.json",
+      "bytes": 1323,
+      "sha256": "32e108bb8b362a1e08cd9eb8d54db74963ddf40549ce55c051c0a18c5535a797"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/03_register.json",
+      "bytes": 1362,
+      "sha256": "2f7d9f9f90026808902a85acc5b1524adb69293b02728788f486661eb82efb93"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/04_password_reset.json",
+      "bytes": 1416,
+      "sha256": "ac780edcc47adf0402e577391c3acfa660b3c7a10ffac671427ae2d2b2ce7e35"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/05_equipment.json",
+      "bytes": 1479,
+      "sha256": "693a312aeec4c7c4ff0cf3efcda8a4afc875f7eaae7cc24744626dbbb024f6c8"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/06_equipment_detail.json",
+      "bytes": 1490,
+      "sha256": "9d64bf55c2bb378dc4c7b20e653b43871cf02621397ee87d808ec6553f215020"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/07_history.json",
+      "bytes": 1337,
+      "sha256": "b35a900be25a28308b360bfc08db9a1f4984ee979ae56ef9aa9a56eccb714d4e"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/08_manuals.json",
+      "bytes": 1427,
+      "sha256": "7e72d37aa3316d19a2b5fe04065427bd7556da47b5b2cf48c7426764090a9efa"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/09_pdf_viewer.json",
+      "bytes": 1436,
+      "sha256": "18377e2a157716cd98ebc51a45100f85d9eac036ec476e8f9006391b45d00b1a"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/10_checklists.json",
+      "bytes": 1363,
+      "sha256": "61200092e23196de7555c31cecf1cbed9d94f9b222aa06cd73550ea99f93e18e"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/11_checklist_run.json",
+      "bytes": 1422,
+      "sha256": "b0257ccb3b21e748ede257b232dc1ec26c4f0892991cc38cbe9b509e2e172b51"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/12_checklist_done.json",
+      "bytes": 1379,
+      "sha256": "438636454afaa3d923e2ac381003a7db3311fe5f821ec4436b83028b39c82024"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/13_shift.json",
+      "bytes": 1438,
+      "sha256": "9ac74e8c7d8a8dbf3bc223f51d7c51631c1085a7425c03f535e3fcd43c9e7349"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/14_requests.json",
+      "bytes": 1360,
+      "sha256": "8d78ab00051dd1c4ea2e812a008867b4c18fc5bedb55fb90c7afd1c46d3021d9"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/15_request_new.json",
+      "bytes": 1425,
+      "sha256": "3710b9f5cddbf93f465f5191fbd3caaa7d3d994d74611d1a40cda087c2fa8e51"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/16_request_detail.json",
+      "bytes": 1396,
+      "sha256": "8ebfa69ecfeb57027fab69181920c317b8c647b7fefd35931fdc0704bf22ba55"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/17_tasks.json",
+      "bytes": 1383,
+      "sha256": "5a5ef1c2ac0ae2b52d7b6086206824ca4c2fae92768eb58f44f4c80a66d8fa4b"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/18_task_detail.json",
+      "bytes": 1403,
+      "sha256": "1b16d1f0d2b85f1f6dcbfad1c5354f524047f103f30bce34c85febe10fe2b87d"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/19_messages.json",
+      "bytes": 1446,
+      "sha256": "c5ea23673c662da32f91678803fad82f4f3f7018e152d09784f2d25b3e696232"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/20_chat.json",
+      "bytes": 1372,
+      "sha256": "f9b449024f5dce995648bee7527cb52a92becd1317f053e8f61a8c3306911808"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/21_profile.json",
+      "bytes": 1452,
+      "sha256": "11d2138515a251c3691a037afde753bfa95681a83c455ce590f37cd03b0935ca"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/22_settings.json",
+      "bytes": 1422,
+      "sha256": "9eb24c4264dc152bf4936de54e3e253d52890892ff968cc855fc24ceb6c81fb3"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/23_help.json",
+      "bytes": 1366,
+      "sha256": "6ce021004b6efe1b75ef07546ee26c8da4263a19aa9e57afb2edb730ce153262"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/24_help_article.json",
+      "bytes": 1347,
+      "sha256": "6183b19be54407c962fcde647376bcfe341995925f370f0098b3e9448ed492bb"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/25_qr_scanner.json",
+      "bytes": 1688,
+      "sha256": "5e8a558cd65c7d675807af2ed73f907744aedb443abdf52a75b412d95b3cc32d"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/26_notifications.json",
+      "bytes": 1340,
+      "sha256": "63972da11c2bb1620a76c24bcda347b1be46a1e1f20c525beda999b1a2f8cc3c"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/27_edit_profile.json",
+      "bytes": 1385,
+      "sha256": "1d3e81d8f69d73089c20dfa70131820dc0e5a15bf44170593c88c10e2d8cadc3"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/28_handover.json",
+      "bytes": 1367,
+      "sha256": "6b62469c8f267b1eb397957345688bf7f2b0865f1c63adff4ba4343cb5041771"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/29_offline.json",
+      "bytes": 1451,
+      "sha256": "ae1c2f6e04bcca864923c8f96e25a74b1e68b061aa6de0695bd1ec203a173f21"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/30_upload_pdf.json",
+      "bytes": 1395,
+      "sha256": "69dc1c8b0339a7238979308bf87a5c1b940eda2830b99bf35dac6002b84c905d"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/31_manager.json",
+      "bytes": 1533,
+      "sha256": "3a81741e6b67af6fc094d93b9eabb2c5640267744ce18fd1ee1490459efe3b5a"
+    },
+    {
+      "path": "handoff/04_SCREEN_CONTRACTS/contracts/32_about.json",
+      "bytes": 1369,
+      "sha256": "e8c5a653c2c29e413521d2e91a9334a850882b63586f0bb6f514874ef976ee39"
+    },
+    {
+      "path": "handoff/06_IMPLEMENTATION/ARCHITECTURE.md",
+      "bytes": 860,
+      "sha256": "7e822cc1e8e665c8cb2df0ddf649550cae600a66022bb224f6b72054b76f93df"
+    },
+    {
+      "path": "handoff/06_IMPLEMENTATION/IMAGE_LOADING_SPEC.md",
+      "bytes": 573,
+      "sha256": "c61a341e65b7041ed96baf4eca71bbd4b8177a338e4bdbc9a9b773dc5eeb3995"
+    },
+    {
+      "path": "handoff/06_IMPLEMENTATION/OPEN_DECISIONS.md",
+      "bytes": 740,
+      "sha256": "361702c35845e0bd074797c4d0c882abd8430e8a6b29c339cde2265cd7c1801f"
+    },
+    {
+      "path": "handoff/06_IMPLEMENTATION/PDF_SPEC.md",
+      "bytes": 338,
+      "sha256": "ed7ea10a8fb11c6309ffd085be614301c3a5eeec4175e8b2efe162b3c70834e6"
+    },
+    {
+      "path": "handoff/06_IMPLEMENTATION/QR_CAMERA_SPEC.md",
+      "bytes": 393,
+      "sha256": "75d0b7d7f71ca14a5bb0dccff3e92893c3dda39bae1645ab3fa6e14059ee0e95"
+    },
+    {
+      "path": "handoff/06_IMPLEMENTATION/TOOLCHAIN_LOCK.md",
+      "bytes": 606,
+      "sha256": "4b22300a7e48717f03e66f53fffc5232304ee811a232c820d80c122c14629ad2"
+    },
+    {
+      "path": "handoff/06_IMPLEMENTATION/ci/android-ui-kit.yml.example",
+      "bytes": 450,
+      "sha256": "0c963b9f845a1f1730dafc7b04abd54396eb253ff7b3df16b915016ef7b3f265"
+    },
+    {
+      "path": "handoff/07_QA/DEVICE_TEST_MATRIX.md",
+      "bytes": 801,
+      "sha256": "3e0ea88e66ee72d0e3414d8f9f2e6cd2853a7a82681bc402bb0e39e24ba7e698"
+    },
+    {
+      "path": "handoff/07_QA/VERIFICATION_REPORT.txt",
+      "bytes": 78,
+      "sha256": "d9482c010ee700a2848e7657ac0c23abc5932dcc21b64687a5856dc967745084"
+    },
+    {
+      "path": "handoff/07_QA/VISUAL_ACCEPTANCE.md",
+      "bytes": 606,
+      "sha256": "002007ee1eb1d2cfe453a1d556d635ec213cf311f3275f744ac946414bc555f3"
+    },
+    {
+      "path": "handoff/07_QA/scripts/check_asset_references.py",
+      "bytes": 462,
+      "sha256": "0016e45f35e793c6efdae5477bbf75462afe82369b440a4755ef824f8feaa11a"
+    },
+    {
+      "path": "handoff/07_QA/scripts/verify_handoff.py",
+      "bytes": 2552,
+      "sha256": "f06137a3f8ddff4fa811d642c738a42ce28cbdc8a203673d4f00cd4ab75048ef"
+    },
+    {
+      "path": "handoff/08_INTEGRITY/FILE_INVENTORY.json",
+      "bytes": 53768,
+      "sha256": "bb498be1869a74f6e4e7301d66b24695c0be64f3ef74cd673d7bfc7f886eac90"
+    },
+    {
+      "path": "handoff/08_INTEGRITY/SHA256SUMS.txt",
+      "bytes": 34131,
+      "sha256": "05f645f0423d1e4f4d8fda39d1c35c0725ff99ed15cb4f620e78c1dd24c18879"
+    },
+    {
+      "path": "handoff/08_SOURCE_SPECS/ASSET_IMPLEMENTATION_GUIDE_EXACT.md",
+      "bytes": 4064,
+      "sha256": "9483a1a1dc422a229a4d835529fe99f98669ed1b35040d7a9daee9156e8a6951"
+    },
+    {
+      "path": "handoff/08_SOURCE_SPECS/DESIGN_GUIDE.md",
+      "bytes": 8639,
+      "sha256": "53aaf5bf47b6a25be7feb7abf7c738ca48cd94dc42c8ba94a7595869ac7d9df3"
+    },
+    {
+      "path": "handoff/08_SOURCE_SPECS/FLOWS.md",
+      "bytes": 6696,
+      "sha256": "feba5232c63cda3eeddd572b3e9ed909a8674f4800fca4bbb314ca217852162d"
+    },
+    {
+      "path": "handoff/08_SOURCE_SPECS/FONT_AND_ASSET_USAGE_MAP.md",
+      "bytes": 7627,
+      "sha256": "e1c171c2eeebcce6c7513d69d4492596ffd0e27569edf4d20b66684e82ebe516"
+    },
+    {
+      "path": "handoff/08_SOURCE_SPECS/ICON_USAGE_MAP.csv",
+      "bytes": 4300,
+      "sha256": "7adec03a842b6a193667f367640ccde3f6edaece0012916ef09d7384aa2df454"
+    },
+    {
+      "path": "handoff/08_SOURCE_SPECS/RIVET_Android_UI_Object_Spec_v1.json",
+      "bytes": 84597,
+      "sha256": "a505a14c28f06ea2d58a41d30304208ff5b45e2547bf15432fca6de4e2684fed"
+    },
+    {
+      "path": "handoff/08_SOURCE_SPECS/RIVET_Android_UI_Object_Spec_v1.xlsx",
+      "bytes": 259503,
+      "sha256": "b253fdad88c5d10a95d7c09927ea0026ff9863fbb8f740c17b870138234ccc54"
+    },
+    {
+      "path": "handoff/08_SOURCE_SPECS/SCREEN_BY_SCREEN_FONT_ASSET_MAP.csv",
+      "bytes": 6152,
+      "sha256": "63202fdb4549073c42a925f02c38647ee0924f3ace0423e5ea9f3e1fca63910b"
+    },
+    {
+      "path": "handoff/08_SOURCE_SPECS/UI_OBJECT_CATALOG.md",
+      "bytes": 38125,
+      "sha256": "53c19072535011aa7a44b73e22ac7d6d51c938a440109b84b474212acd744927"
+    },
+    {
+      "path": "handoff/08_SOURCE_SPECS/design_tokens.json",
+      "bytes": 897,
+      "sha256": "0c947c6d460390a1761f998b601cbc952775a4f1dcd03676126f7a2ac71e5e0c"
+    },
+    {
+      "path": "handoff/08_SOURCE_SPECS/screens.json",
+      "bytes": 7825,
+      "sha256": "41a1da329127295cfb13b3ca950a73242215d7bab03bc8dfdb81c9b353d78e88"
+    },
+    {
+      "path": "handoff/CHANGELOG.md",
+      "bytes": 887,
+      "sha256": "04fb725e730be670e9d2e17586e726b14c1e0a3c4c499ca6b79b8fedd45838b6"
+    },
+    {
+      "path": "handoff/FONT_SETUP/FONT_BINARY_STATUS.md",
+      "bytes": 303,
+      "sha256": "2c2a20a60ef6d0e0ea6b5e05ee5831bc374d3e73c9a6a7759c19c874064e025d"
+    },
+    {
+      "path": "handoff/FONT_SETUP/FONT_SETUP.md",
+      "bytes": 528,
+      "sha256": "45eb3b275f011fb5cca8b91ad8461b087aca8db360fbc7aa467e3c8974394042"
+    },
+    {
+      "path": "handoff/FONT_SETUP/Type.inter.kt.template",
+      "bytes": 1521,
+      "sha256": "4b554db29fd2147cdc8182b1911076a787bfa607ee8aa18e0efcfad9f95cd3d1"
+    },
+    {
+      "path": "handoff/FONT_SETUP/install_inter.py",
+      "bytes": 1237,
+      "sha256": "395885dc9b95b0a408ac487f9493d00f3fc7a36925ae2a74229127f833c53a28"
+    },
+    {
+      "path": "handoff/HANDOFF_STATUS.json",
+      "bytes": 482,
+      "sha256": "90105925d8d5052ad7382d5cd361f23225fad33a3bca621dd5625a28526159d3"
+    },
+    {
+      "path": "handoff/PACKAGE_SUMMARY.json",
+      "bytes": 427,
+      "sha256": "b459bf42ab0194c896720c60ecc216541fb5e130b7018d78f0a86da2399a380c"
+    },
+    {
+      "path": "handoff/VERSION.txt",
+      "bytes": 24,
+      "sha256": "5a3bb21807efb23974eeef80c487c608cb3db580ae61366cb696ae8fdf63c87f"
+    },
+    {
+      "path": "scripts/verify_repo.py",
+      "bytes": 1358,
+      "sha256": "76cdcda985dee2f5092825a7804ada3edf1bc658692f69e44d6d816d9d1d2ceb"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "bytes": 278,
+      "sha256": "4e58cfbd01f9d385553c9ff94742656cce9009e0116670e4827aacda4e250c9c"
+    }
+  ]
+}

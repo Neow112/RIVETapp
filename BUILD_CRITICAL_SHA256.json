@@ -1,0 +1,37 @@
+[
+  {
+    "path": "settings.gradle.kts",
+    "sha256": "4e58cfbd01f9d385553c9ff94742656cce9009e0116670e4827aacda4e250c9c",
+    "bytes": 278
+  },
+  {
+    "path": "build.gradle.kts",
+    "sha256": "cac82601e3d24a35e2079f011f60dd2f3957b746410fbe6a4f5620fbefa36359",
+    "bytes": 401
+  },
+  {
+    "path": "gradle.properties",
+    "sha256": "b0a79d51bfbc40d091c33691d1432f5b6f6975c4eecae1ae0c7583d3eff78e89",
+    "bytes": 202
+  },
+  {
+    "path": "gradle/libs.versions.toml",
+    "sha256": "7cb52ca55a512f33c0f6efeb3856068cfa47ec37241654ebf76cb7c675b0fa6c",
+    "bytes": 803
+  },
+  {
+    "path": "app/build.gradle.kts",
+    "sha256": "6c3d47bbcf7d49ad7ae4cdaa1c63d79ac88f44727203252996664ed98bb5a51b",
+    "bytes": 985
+  },
+  {
+    "path": "app/src/main/AndroidManifest.xml",
+    "sha256": "66321cb6c9b736662fc106a0b27de86209e7dedaa7795e823a15a691b15982ac",
+    "bytes": 733
+  },
+  {
+    "path": ".github/workflows/build-apk.yml",
+    "sha256": "5f11b419a0426d2bb9e69dea9479a1d838ab50d16d1d147fe25604bd91a849e0",
+    "bytes": 2533
+  }
+]
